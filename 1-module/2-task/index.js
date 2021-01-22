@@ -12,10 +12,11 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  if (name && name.indexOf(' ') === -1 && name.length >= 4 ) {
+  if (!name || name.includes(' ') || name.length < 4){
+    return false;
+  } else {
     return true;
   }
-    return false;
 }
 
 
