@@ -11,7 +11,3 @@ function checkSpam(str) {
     return false;
   }
 }
-
-checkSpam('1XbeT now');
-checkSpam('free xxxxx');
-checkSpam('innocent rabbit');
