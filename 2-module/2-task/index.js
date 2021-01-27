@@ -4,17 +4,13 @@
  * @returns {Boolean}
  */
 
-
 function isEmpty(obj) {
   let count = 0;
-
   for (let key in obj) {
-    count++;  
+    count++;
   }
-
   if (count) {
     return false;
   }
-
   return true;
 }
